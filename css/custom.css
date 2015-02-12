@@ -1,5 +1,5 @@
 body{
-background-image: url('background.jpg');
+background-image: url('../img/background.jpg');
 background-repeat: no-repeat;
 background-size: 100%;
 }
@@ -12,7 +12,7 @@ color: white;
 text-shadow: -2px -2px 2px black;
 cursor: pointer;
 text-align: center;
-background: url('background.jpg');
+background: url('../img/background.jpg');
 background-size: cover;
 position: absolute;
 box-shadow: -8px -6px 5px rgba(0, 0, 0, 0.75);
@@ -34,7 +34,7 @@ color: #555;
 
 .cover{
 	position:absolute;
-	background-image: url('background.jpg');
+	background-image: url('../img/background.jpg');
 	z-index: 9999;	
 	cursor: pointer;
 }

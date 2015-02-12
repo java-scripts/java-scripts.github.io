@@ -77,7 +77,8 @@ contentData=[
 	var numberOfHolesPerRow = 16;
 	var width = $(window).width();
 	var height =  $(window).height();	
-	var holeSize =  Math.round(width/numberOfHolesPerRow);
+	var holeSize =  Math.max(Math.round(width/numberOfHolesPerRow),80);
+	
 	var numberOfRows = Math.round(height/holeSize);		
 	for(var row=0;row<numberOfRows;row++){
 		for(var col=0;col<numberOfHolesPerRow;col++){
