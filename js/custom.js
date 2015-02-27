@@ -1,7 +1,7 @@
 contentData=[
 		{
 			title:'Wave CAD',
-			description:'CAD Design tool that simulates Electromagnetic waves and Optical Structures',
+			description:'A Computer Aided Design Tool to simulate Electromagnetic Waves and Optical Structures  ',
 			url:'http://java-scripts.github.io/wave-cad',
 			p:[4,1]
 		},
@@ -16,6 +16,12 @@ contentData=[
 			description:'light weight frame work for creating animations and 2d-visualizations on cavas',
 			url:'http://java-scripts.github.io/canvas-graphics',
 			p:[5,5]
+		},
+		{
+			title:'Image Processing',
+			description:'A Java-Script Photo Editor Tool',
+			url:'http://java-scripts.github.io/image-processing',
+			p:[10,3]
 		}
 	];
 	
