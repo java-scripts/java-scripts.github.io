@@ -1,7 +1,15 @@
 body{
 background-image: url('../img/background.jpg');
 background-repeat: no-repeat;
-background-size: 100%;
+}
+.cover{
+	position:absolute;
+	background-image: url('../img/background.jpg');
+	z-index: 9999;	
+	cursor: pointer;	
+}
+body,.cover{
+background-size: 1600px;
 }
 .column-header{
 border-radius: 10px;
@@ -32,12 +40,7 @@ text-shadow: 1px 1px 1px #FFF;
 color: #555;
 }
 
-.cover{
-	position:absolute;
-	background-image: url('../img/background.jpg');
-	z-index: 9999;	
-	cursor: pointer;
-}
+
 
 .hole,.hole2{
 box-shadow: inset -10px -10px 10px rgb(27, 27, 27);

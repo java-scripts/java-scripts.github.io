@@ -91,7 +91,7 @@ contentData=[
 			s=holeSize-6;
 			l=col*holeSize;
 			t=row*holeSize;
-			c = colorUtil.getRandColor(0);
+			c = colorUtil.getRandColor(colorUtil.hue);
 			$('#container').append('<div class="hole" style="width:'+s+'px;height:'+s+'px;left:'+l+'px;top:'+t+'px;background:'+c+';" ></div>')
 		}
 	}	
@@ -119,7 +119,7 @@ contentData=[
 	});	
 	
 	$('.hole2').each(function(){
-		$(this).css('background',colorUtil.getRandColor(0));
+		$(this).css('background',colorUtil.getRandColor(colorUtil.hue));
 	});
 	
 	
@@ -139,16 +139,16 @@ contentData=[
 	
 	*/
 	var sign=1;
-	var hue=0;
+	
 	$('.column-header').click(function(){
 		
 		$('.hole, .hole2').each(function(){
-			$(this).css('background',colorUtil.getRandColor(hue));
+			$(this).css('background',colorUtil.getRandColor(colorUtil.hue));
 		});
 		sign=-1*sign;
 		if(sign==1){
 			//hue=colorUtil.getRand(0,255);
-			hue=(hue+10)%255;
+			colorUtil.hue=(colorUtil.hue+15)%255;			
 		}
 		$('.hole, .hole2').toggleClass('borderRadius');
 		$('.cover').width($('.cover').width()-sign*4).height($('.cover').width());
