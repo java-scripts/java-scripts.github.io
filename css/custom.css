@@ -83,5 +83,6 @@ text-shadow: 1px 1px 1px #000;
 }
 .hole2 .description{
 margin-top: 10px;
-margin-left: 3px;
+margin-left: -5px;
+text-align: center;
 }
