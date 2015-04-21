@@ -8,7 +8,7 @@ contentData=[
 		{
 			title:'CSS 3D',
 			description:'First Person walking is made possible with css3 3d transformations',
-			url:'http://java-scripts.github.io/css3-3d-walking',
+			url:'http://java-scripts.github.io/html3d/',
 			p:[7,2]
 		},
 		{
