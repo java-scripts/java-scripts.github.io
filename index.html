@@ -1,26 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
+ <!DOCTYPE html>
+  <html ng-app="myapp">
+    <head>
+      <!--Import materialize.css-->
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-<head>
-  <meta charset="utf-8">
-  <title>Java Scripts</title>
-  <link rel="SHORTCUT ICON" href="images/logo/icon.png" />
-  <link rel="stylesheet" type="text/css" href="css/custom.css" />
-  <meta name="keywords" content="java script, java script programming, core, basic, advanced, introduction, functions, objects, oops, canvas, 3d, css 3d, cad, animations, concepts, example, java, language, simulations, FDTD" />
-  <meta name="description" content="electromagnetic wave simulations, First Person walking with css 3d transformations, canvas graphics " />
-  <link rel="canonical" href="http://java-scripts.github.io" />
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="http://java-scripts.github.io" />
-  <meta property="og:site_name" content="java-scripts.github.io" />
-</head>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	  
+	  
+	  <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	    <script type="text/javascript" src="js/angular.min.js"></script>
+		 <script type="text/javascript" src="js/controller.js"></script>
+    </head>
 
-<body>
-  <div class="column-header">JAVA SCRIPTS<a href="https://github.com/java-scripts">View On GitHub</a>
-  </div>
-  <div id="container"></div>
-  <script src="js/jquery-1.9.1.js"></script>
-  <script src="js/custom.js"></script>
-</body>
+    <body ng-controller="MainController">
+		<header>
+			<nav class="top-nav">
+				<div class="container">
+				  <div class="nav-wrapper">
+					 <a href="#" class="brand-logo">JAVA SCRIPTS</a>
+					  <ul id="nav-mobile" class="right hide-on-med-and-down">					
+						<li><a href="https://github.com/java-scripts">View On GitHub</a></li>
+					  </ul>
+					
+					
+					</div>
+				</div>
+			  </nav>
+		</header>
+		<main>
+			<div class="container">		
+				<div class="row">
+					<div class="col s12 m12 l12">
+					
+						<div id="reveal" class="section scrollspy">
+							<div class="row">
+							  <!-- Pullup Card -->
+							  <div ng-repeat="card in cards" class="col s12 m6 l4">
+								<h4 class="header">{{card.title}}</h4>
+								<div class="card">
+								  <div class="card-image waves-effect waves-block waves-light">
+									<img class="activator" ng-src="{{card.image}}">
+								  </div>
+								  <div class="card-content">
+									<span class="card-title activator grey-text text-darken-4">{{card.title}}<i class="material-icons right">more_vert</i></span>
 
-</html>
+									<p><a href="{{card.url}}">Goto Page</a></p>
+								  </div>
+								  <div class="card-reveal" style="display: none; transform: translateY(0px);">
+									<span class="card-title grey-text text-darken-4">{{card.title}}<i class="material-icons right">close</i></span>
+									<p>{{card.description}}</p>
+								  </div>
+								</div>
+							  </div>
+							
+							 
+							  	
+							
+							  
+
+							  
+							</div>	
+
+
+							
+						  </div>						  
+					</div>
+				</div>		
+			</div>		
+		</main>
+    </body>
+  </html>
+        
