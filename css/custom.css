@@ -1,0 +1,12 @@
+.btn-pill {
+    padding: 3px;
+    height: 18px;
+    line-height: 14px;
+    font-size: 12px;
+    text-transform: none;
+	margin:2px;
+}
+
+.custom-card-title{
+	   line-height: 10px  !important;;
+}

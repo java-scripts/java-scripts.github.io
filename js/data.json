@@ -1,0 +1,68 @@
+{
+  "gallery1": [{
+    "title": "Wave CAD",
+    "description": "A Computer Aided Design Tool to simulate Electromagnetic Waves and Optical Structures  ",
+    "url": "http://java-scripts.github.io/wave-cad",
+    "image": "images/wavecad.png",
+    "labels": ["jQuery", "jQuery UI", "Physics", "FDTD"],
+    "p": [4, 1]
+  }, {
+    "title": "CSS 3D",
+    "description": "First Person walking is made possible with css3 3d transformations",
+    "url": "http://java-scripts.github.io/html3d/",
+    "image": "images/css3d.png",
+    "labels": ["AngularJS", "CSS3 3D"],
+    "p": [7, 2]
+  }, {
+    "title": "Canvas Graphics",
+    "description": "light weight frame work for creating animations and 2d-visualizations on cavas",
+    "url": "http://java-scripts.github.io/canvas-graphics",
+    "image": "images/canvasgraphics.png",
+    "labels": ["Vanilla JS"],
+    "p": [5, 5]
+  }, {
+    "title": "Image Processing",
+    "description": "A Java-Script Photo Editor Tool",
+    "url": "http://java-scripts.github.io/image-processing",
+    "image": "images/imageprocess.png",
+    "labels": ["Vanilla JS"],
+    "p": [10, 3]
+  }],
+  "gallery2": [{
+    "title": "Optics Lens",
+    "description": "Optics",
+    "url": "http://java-scripts.github.io/miscellaneous/rayoptics_lens.html",
+    "image": "images/rayoptics_lens.png",
+    "labels": ["Vanilla JS"],
+    "p": [5, 5]
+  }, {
+    "title": "Optics Mirror",
+    "description": "Optics",
+    "url": "http://java-scripts.github.io/miscellaneous/rayoptics_mirror.html",
+    "image": "images/rayoptics_mirror.png",
+    "labels": ["Vanilla JS"],
+    "p": [5, 5]
+  },
+  {
+    "title": "Six Cards",
+    "description": "six cards",
+    "url": "http://java-scripts.github.io/miscellaneous/sixcards.html",
+    "image": "images/sixcards.png",
+    "labels": ["jQuery", "jQuery UI"],
+    "p": [4, 1]
+  }, {
+    "title": "F-Plot",
+    "description": "A 2D Function Plotter",
+    "url": "http://java-scripts.github.io/miscellaneous/fplot.html",
+    "image": "images/fplot.png",
+    "labels": ["Vanilla JS"],
+    "p": [5, 5]
+  }, {
+    "title": "Clock",
+    "description": "Simple Clock",
+    "url": "http://java-scripts.github.io/miscellaneous/clock.html",
+    "image": "images/clock.png",
+    "labels": ["Vanilla JS"],
+    "p": [5, 5]
+  }]
+}
