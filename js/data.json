@@ -7,7 +7,7 @@
     "labels": ["jQuery", "jQuery UI", "Physics", "FDTD"],
     "p": [4, 1]
   }, {
-    "title": "CSS 3D",
+    "title": "Angular-3D",
     "description": "First Person walking is made possible with css3 3d transformations",
     "url": "/html3d/",
     "image": "images/css3d.png",
