@@ -10,3 +10,35 @@
 .custom-card-title{
 	   line-height: 10px  !important;;
 }
+
+
+
+
+
+
+
+@media only screen and (min-width: 0){
+	.card-img{
+		height:300px;
+	}
+	.card-img-big{
+		height:350px;
+	}
+}
+
+@media only screen and (min-width: 992px){
+	.card-img{
+		height:200px;
+	}
+	.card-img-big{
+		height:300px;
+	}
+}
+@media only screen and (min-width: 1200px){
+	.card-img{
+		height:150px;
+	}
+	.card-img-big{
+		height:200px;
+	}
+}
