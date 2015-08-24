@@ -44,21 +44,21 @@
 					<div class="col s12 m12 l12">
 						
 						<div id="gallery1" class="section">
-							<h2 class="header">Gallery 1</h2>
+							<h3 class="header">Gallery 1</h3>
 							<div class="row">
 							  <!-- Pullup Card -->
 							  <div ng-repeat="card in data.gallery1" class="col s12 m6 l4">
-								<h4 class="header">{{card.title}}</h4>
+								<h5 class="header">{{card.title}}</h5>
 								<div class="card hoverable">
 								  <div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" ng-src="{{card.image}}">
+									<img class="activator card-img-big" ng-src="{{card.image}}">
 								  </div>
 								  <div class="card-content">
 									<a ng-repeat="label in card.labels" class="waves-effect waves-light btn btn-pill" href="#">{{label}} </a> 									
 								  
 									<span class="card-title activator grey-text text-darken-4 custom-card-title"><i class="material-icons right">more_vert</i></span>
 
-									<p><a href="{{card.url}}">Goto Page</a></p>
+									<p><a href="{{card.url}}" target="_blank">Goto Page</a></p>
 								  </div>
 								  <div class="card-reveal" style="display: none; transform: translateY(0px);">
 									<span class="card-title grey-text text-darken-4">{{card.title}}<i class="material-icons right">close</i></span>
@@ -69,21 +69,21 @@
 							</div>							
 						  </div>
 						  <div id="gallery2" class="section">
-							<h2 class="header">Gallery 2</h2>	
+							<h3 class="header">Gallery 2</h3>	
 							<div class="row">
 							  <!-- Pullup Card -->
 							  <div ng-repeat="card in lazygallery" class="col s12 m6 l3">
-								<h4 class="header">{{card.title}}</h4>
+								<h5 class="header">{{card.title}}</h5>
 								<div class="card hoverable">
 								  <div class="card-image waves-effect waves-block waves-light">
-									<img class="activator" ng-src="{{card.image}}">
+									<img class="activator card-img" ng-src="{{card.image}}">
 								  </div>
 								  <div class="card-content">
 									<a ng-repeat="label in card.labels" class="waves-effect waves-light btn btn-pill" href="#">{{label}} </a> 									
 								  
 									<span class="card-title activator grey-text text-darken-4 custom-card-title"><i class="material-icons right">more_vert</i></span>
 
-									<p><a href="{{card.url}}">Goto Page</a></p>
+									<p><a href="{{card.url}}"  target="_blank">Goto Page</a></p>
 								  </div>
 								  <div class="card-reveal" style="display: none; transform: translateY(0px);">
 									<span class="card-title grey-text text-darken-4">{{card.title}}<i class="material-icons right">close</i></span>
@@ -94,11 +94,7 @@
 							</div>		
 						  </div>								
 					</div>
-				</div>	
-
-
-
-				
+				</div>					
 			</div>		
 		</main>
 		
