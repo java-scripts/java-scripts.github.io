@@ -92,5 +92,12 @@
     "image": "images/imagecaptcha.png",
     "labels": ["jQuery", "jQuery UI"],
     "p": [5, 5]
+  },{
+    "title": "Color Composer",
+    "description": "Color Composer",
+    "url": "/miscellaneous/colorcomposer.html",
+    "image": "images/default.jpg",
+    "labels": ["Angular"],
+    "p": [5, 5]
   }]
 }
