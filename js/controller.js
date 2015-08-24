@@ -14,8 +14,10 @@ function loadContent(el,ll,ul){
 
 var options = [
     {selector: '#gallery2', offset: 200, callback: 'loadContent("#gallery2",0,4)'},    
-	 {selector: '#gallery2', offset: 600, callback: 'loadContent("#gallery2",4,8)'},    
-	 {selector: '#gallery2', offset: 1000, callback: 'loadContent("#gallery2",8,12)'},    
+	 {selector: '#gallery2', offset: 500, callback: 'loadContent("#gallery2",4,8)'},    
+	 {selector: '#gallery2', offset: 800, callback: 'loadContent("#gallery2",8,12)'},    
+	 {selector: '#gallery2', offset: 1100, callback: 'loadContent("#gallery2",12,16)'},    
+	 {selector: '#gallery2', offset: 1100, callback: 'loadContent("#gallery2",16,18)'},    
   ];
 Materialize.scrollFire(options);
   
