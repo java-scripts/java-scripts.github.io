@@ -116,7 +116,7 @@
   },{
     "title": "Head Track Game",
     "description": "Head Track Game",
-    "url": "/miscellaneous/headtrackgame.html",
+    "url": "/miscellaneous/headtrackergame.html",
     "image": "images/default.jpg",
     "labels": ["Vanilla JS"],
     "p": [5, 5]
