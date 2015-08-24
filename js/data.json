@@ -86,7 +86,7 @@
     "labels": ["jQuery"],
     "p": [5, 5]
   },{
-    "title": "Motion Detecton Alarm",
+    "title": "Motion Detecton",
     "description": "Motion Detection Alarm",
     "url": "/audio-video/motion_detection_alarm.html",
     "image": "images/default.jpg",
