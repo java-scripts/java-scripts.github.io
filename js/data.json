@@ -72,6 +72,13 @@
     "labels": ["jQuery"],
     "p": [5, 5]
   },{
+    "title": "ng-2d-sinc",
+    "description": "2 dim sinc",
+    "url": "/miscellaneous/sinc2d.html",
+    "image": "images/default.jpg",
+    "labels": ["Angular"],
+    "p": [5, 5]
+  },{
     "title": "jQuery Animation",
     "description": "Puzzle",
     "url": "/miscellaneous/jquery_animation_example1.html",
@@ -96,6 +103,48 @@
     "title": "Color Composer",
     "description": "Color Composer",
     "url": "/miscellaneous/colorcomposer.html",
+    "image": "images/default.jpg",
+    "labels": ["Angular"],
+    "p": [5, 5]
+  },{
+    "title": "Loan Calculator",
+    "description": "Loan Calculator",
+    "url": "/miscellaneous/loancalculator.html",
+    "image": "images/default.jpg",
+    "labels": ["Angular","High Charts"],
+    "p": [5, 5]
+  },{
+    "title": "Head Track Game",
+    "description": "Head Track Game",
+    "url": "/miscellaneous/headtrackgame.html",
+    "image": "images/default.jpg",
+    "labels": ["Vanilla JS"],
+    "p": [5, 5]
+  },{
+    "title": "See Through",
+    "description": "See Through",
+    "url": "/miscellaneous/seethrough.html",
+    "image": "images/default.jpg",
+    "labels": ["jQuery","jQuery UI"],
+    "p": [5, 5]
+  },{
+    "title": "Image Matrix",
+    "description": "Image Matrix",
+    "url": "/miscellaneous/imagematrix.html",
+    "image": "images/default.jpg",
+    "labels": ["jQuery"],
+    "p": [5, 5]
+  },{
+    "title": "Audio Player",
+    "description": "Audio Player",
+    "url": "/miscellaneous/audio_player_with_playlist.html",
+    "image": "images/default.jpg",
+    "labels": ["jQuery"],
+    "p": [5, 5]
+  },{
+    "title": "Audio Player",
+    "description": "Audio Player",
+    "url": "/miscellaneous/audio_player_with_playlist_ng.html",
     "image": "images/default.jpg",
     "labels": ["Angular"],
     "p": [5, 5]
