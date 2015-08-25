@@ -18,20 +18,13 @@
 	border-bottom: 1px solid;
 }
 .custom-card-title{
-	   line-height: 10px  !important;;
+	line-height: 10px  !important;;
 }
-
 .filterContainer{
-position: fixed;
+	position: fixed;
     z-index: 9999999;    
     margin-top: 5px;
 }
-
-
-
-
-
-
 
 @media only screen and (min-width: 0){
 	.card-img{

@@ -1,6 +1,6 @@
 {
   "labels":{
-	"vanilla":{"title":"Vanilla JS","color":"brown lighten-3"},
+	"vanilla":{"title":"Vanilla JS","color":"brown lighten-2"},
 	"jquery":{"title":"jQuery","color":"blue accent-1"},
 	"jqueryUI":{"title":"jQuery UI","color":"orange darken-3"},
 	"angular":{"title":"Angular","color":"red accent-4"},
