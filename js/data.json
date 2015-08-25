@@ -1,152 +1,172 @@
 {
-  "gallery1": [{
-    "title": "Wave CAD",
-    "description": "A Computer Aided Design Tool to simulate Electromagnetic Waves and Optical Structures  ",
-    "url": "/wave-cad",
-    "image": "images/wavecad.png",
-    "labels": ["jQuery", "jQuery UI", "Physics", "FDTD"],
-    "p": [4, 1]
-  }, {
-    "title": "Angular-3D",
-    "description": "First Person walking is made possible with css3 3d transformations",
-    "url": "/html3d/",
-    "image": "images/css3d.png",
-    "labels": ["AngularJS", "CSS3 3D"],
-    "p": [7, 2]
-  }, {
-    "title": "Canvas Graphics",
-    "description": "light weight frame work for creating animations and 2d-visualizations on cavas",
-    "url": "/canvas-graphics",
-    "image": "images/canvasgraphics.png",
-    "labels": ["Vanilla JS"],
-    "p": [5, 5]
-  }, {
-    "title": "Image Processing",
-    "description": "A Java-Script Photo Editor Tool",
-    "url": "/image-processing",
-    "image": "images/imageprocess.png",
-    "labels": ["Vanilla JS"],
-    "p": [10, 3]
-  }],
-  "gallery2": [{
-    "title": "Optics Lens",
-    "description": "Optics",
-    "url": "/miscellaneous/rayoptics_lens.html",
-    "image": "images/rayoptics_lens.png",
-    "labels": ["Vanilla JS"],
-    "p": [5, 5]
-  }, {
-    "title": "Optics Mirror",
-    "description": "Optics",
-    "url": "/miscellaneous/rayoptics_mirror.html",
-    "image": "images/rayoptics_mirror.png",
-    "labels": ["Vanilla JS"],
-    "p": [5, 5]
+  "labels":{
+	"vanilla":{"title":"Vanilla JS","color":"brown lighten-3"},
+	"jquery":{"title":"jQuery","color":"blue accent-1"},
+	"jqueryUI":{"title":"jQuery UI","color":"orange darken-3"},
+	"angular":{"title":"Angular","color":"red accent-4"},
+	"highcharts":{"title":"HighCharts","color":"pink accent-1"},
+	"d3":{"title":"D3 JS","color":"amber accent-4"},
+	"css3":{"title":"css3","color":"indigo darken-1"},
+	"canvas":{"title":"canvas","color":"cyan lighten-1"}
   },
-  {
-    "title": "Six Cards",
-    "description": "six cards",
-    "url": "/miscellaneous/sixcards.html",
-    "image": "images/sixcards.png",
-    "labels": ["jQuery", "jQuery UI"],
-    "p": [4, 1]
-  }, {
-    "title": "F-Plot",
-    "description": "A 2D Function Plotter",
-    "url": "/miscellaneous/fplot.html",
-    "image": "images/fplot.png",
-    "labels": ["Vanilla JS"],
-    "p": [5, 5]
-  }, {
-    "title": "Clock",
-    "description": "Simple Clock",
-    "url": "/miscellaneous/clock.html",
-    "image": "images/clock.png",
-    "labels": ["Vanilla JS"],
-    "p": [5, 5]
-  }, {
-    "title": "Image Puzzle",
-    "description": "Puzzle",
-    "url": "/miscellaneous/imagepuzzle.html",
-    "image": "images/default.jpg",
-    "labels": ["jQuery"],
-    "p": [5, 5]
-  },{
-    "title": "ng-2d-sinc",
-    "description": "2 dim sinc",
-    "url": "/miscellaneous/sinc2d.html",
-    "image": "images/default.jpg",
-    "labels": ["Angular"],
-    "p": [5, 5]
-  },{
-    "title": "jQuery Animation",
-    "description": "Puzzle",
-    "url": "/miscellaneous/jquery_animation_example1.html",
-    "image": "images/jquery_animation_example1.png",
-    "labels": ["jQuery"],
-    "p": [5, 5]
-  },{
-    "title": "Motion Detecton",
-    "description": "Motion Detection Alarm",
-    "url": "/audio-video/motion_detection_alarm.html",
-    "image": "images/default.jpg",
-    "labels": ["jQuery", "jQuery UI"],
-    "p": [5, 5]
-  },{
-    "title": "Image Captcha",
-    "description": "captcha",
-    "url": "/miscellaneous/imagecaptcha.html",
-    "image": "images/imagecaptcha.png",
-    "labels": ["jQuery", "jQuery UI"],
-    "p": [5, 5]
-  },{
-    "title": "Color Composer",
-    "description": "Color Composer",
-    "url": "/miscellaneous/colorcomposer.html",
-    "image": "images/default.jpg",
-    "labels": ["Angular"],
-    "p": [5, 5]
-  },{
-    "title": "Loan Calculator",
-    "description": "Loan Calculator",
-    "url": "/miscellaneous/loancalculator.html",
-    "image": "images/default.jpg",
-    "labels": ["Angular","High Charts"],
-    "p": [5, 5]
-  },{
-    "title": "Head Track Game",
-    "description": "Head Track Game",
-    "url": "/miscellaneous/headtrackergame.html",
-    "image": "images/default.jpg",
-    "labels": ["Vanilla JS"],
-    "p": [5, 5]
-  },{
-    "title": "See Through",
-    "description": "See Through",
-    "url": "/miscellaneous/seethrough.html",
-    "image": "images/default.jpg",
-    "labels": ["jQuery","jQuery UI"],
-    "p": [5, 5]
-  },{
-    "title": "Image Matrix",
-    "description": "Image Matrix",
-    "url": "/miscellaneous/imagematrix.html",
-    "image": "images/default.jpg",
-    "labels": ["jQuery"],
-    "p": [5, 5]
-  },{
-    "title": "Audio Player",
-    "description": "Audio Player",
-    "url": "/miscellaneous/audio_player_with_playlist.html",
-    "image": "images/default.jpg",
-    "labels": ["jQuery"],
-    "p": [5, 5]
-  },{
-    "title": "Audio Player",
-    "description": "Audio Player",
-    "url": "/miscellaneous/audio_player_with_playlist_ng.html",
-    "image": "images/default.jpg",
-    "labels": ["Angular"],
-    "p": [5, 5]
-  }]
+  "cards":[
+	{
+		"title":"Gallery1",
+		"rsize":"col s12 m6 l4",
+		"data":[{
+			"title": "Wave CAD",
+			"description": "A Computer Aided Design Tool to simulate Electromagnetic Waves and Optical Structures  ",
+			"url": "/wave-cad",
+			"image": "images/wavecad.png",
+			"labels": ["jquery", "jqueryUI"],
+			"p": [4, 1]
+		  }, {
+			"title": "Angular-3D",
+			"description": "First Person walking is made possible with css3 3d transformations",
+			"url": "/html3d/",
+			"image": "images/css3d.png",
+			"labels": ["angular", "css3"],
+			"p": [7, 2]
+		  }, {
+			"title": "Canvas Graphics",
+			"description": "light weight frame work for creating animations and 2d-visualizations on cavas",
+			"url": "/canvas-graphics",
+			"image": "images/canvasgraphics.png",
+			"labels": ["vanilla"],
+			"p": [5, 5]
+		  }, {
+			"title": "Image Processing",
+			"description": "A Java-Script Photo Editor Tool",
+			"url": "/image-processing",
+			"image": "images/imageprocess.png",
+			"labels": ["vanilla"],
+			"p": [10, 3]
+		  }]
+	},
+	{
+		"title":"Gallery2",
+		"rsize":"col s12 m6 l3",
+		"data":[{
+			"title": "Optics Lens",
+			"description": "Optics",
+			"url": "/miscellaneous/rayoptics_lens.html",
+			"image": "images/rayoptics_lens.png",
+			"labels": ["vanilla"],
+			"p": [5, 5]
+		  }, {
+			"title": "Optics Mirror",
+			"description": "Optics",
+			"url": "/miscellaneous/rayoptics_mirror.html",
+			"image": "images/rayoptics_mirror.png",
+			"labels": ["vanilla"],
+			"p": [5, 5]
+		  },
+		  {
+			"title": "Six Cards",
+			"description": "six cards",
+			"url": "/miscellaneous/sixcards.html",
+			"image": "images/sixcards.png",
+			"labels": ["jquery", "jqueryUI"],
+			"p": [4, 1]
+		  }, {
+			"title": "F-Plot",
+			"description": "A 2D Function Plotter",
+			"url": "/miscellaneous/fplot.html",
+			"image": "images/fplot.png",
+			"labels": ["vanilla"],
+			"p": [5, 5]
+		  }, {
+			"title": "Clock",
+			"description": "Simple Clock",
+			"url": "/miscellaneous/clock.html",
+			"image": "images/clock.png",
+			"labels": ["vanilla"],
+			"p": [5, 5]
+		  }, {
+			"title": "Image Puzzle",
+			"description": "Puzzle",
+			"url": "/miscellaneous/imagepuzzle.html",
+			"image": "images/default.jpg",
+			"labels": ["jquery"],
+			"p": [5, 5]
+		  },{
+			"title": "ng-2d-sinc",
+			"description": "2 dim sinc",
+			"url": "/miscellaneous/sinc2d.html",
+			"image": "images/default.jpg",
+			"labels": ["angular"],
+			"p": [5, 5]
+		  },{
+			"title": "jQuery Animation",
+			"description": "Puzzle",
+			"url": "/miscellaneous/jquery_animation_example1.html",
+			"image": "images/jquery_animation_example1.png",
+			"labels": ["jquery"],
+			"p": [5, 5]
+		  },{
+			"title": "Motion Detecton",
+			"description": "Motion Detection Alarm",
+			"url": "/audio-video/motion_detection_alarm.html",
+			"image": "images/default.jpg",
+			"labels": ["jquery", "jqueryUI"],
+			"p": [5, 5]
+		  },{
+			"title": "Image Captcha",
+			"description": "captcha",
+			"url": "/miscellaneous/imagecaptcha.html",
+			"image": "images/imagecaptcha.png",
+			"labels": ["jquery", "jqueryUI"],
+			"p": [5, 5]
+		  },{
+			"title": "Color Composer",
+			"description": "Color Composer",
+			"url": "/miscellaneous/colorcomposer.html",
+			"image": "images/default.jpg",
+			"labels": ["angular"],
+			"p": [5, 5]
+		  },{
+			"title": "Loan Calculator",
+			"description": "Loan Calculator",
+			"url": "/miscellaneous/loancalculator.html",
+			"image": "images/default.jpg",
+			"labels": ["angular","highcharts"],
+			"p": [5, 5]
+		  },{
+			"title": "Head Track Game",
+			"description": "Head Track Game",
+			"url": "/miscellaneous/headtrackergame.html",
+			"image": "images/default.jpg",
+			"labels": ["vanilla"],
+			"p": [5, 5]
+		  },{
+			"title": "See Through",
+			"description": "See Through",
+			"url": "/miscellaneous/seethrough.html",
+			"image": "images/default.jpg",
+			"labels": ["jquery","jqueryUI"],
+			"p": [5, 5]
+		  },{
+			"title": "Image Matrix",
+			"description": "Image Matrix",
+			"url": "/miscellaneous/imagematrix.html",
+			"image": "images/default.jpg",
+			"labels": ["jquery"],
+			"p": [5, 5]
+		  },{
+			"title": "Audio Player",
+			"description": "Audio Player",
+			"url": "/miscellaneous/audio_player_with_playlist.html",
+			"image": "images/default.jpg",
+			"labels": ["jquery"],
+			"p": [5, 5]
+		  },{
+			"title": "Audio Player",
+			"description": "Audio Player",
+			"url": "/miscellaneous/audio_player_with_playlist_ng.html",
+			"image": "images/default.jpg",
+			"labels": ["angular"],
+			"p": [5, 5]
+		  }]
+	}
+  ] 
 }
