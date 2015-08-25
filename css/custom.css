@@ -6,9 +6,25 @@
     text-transform: none;
 	margin:2px;
 }
-
+.btn-pill-large{
+    padding: 5px;
+    height: 30px;
+    line-height: 21px;
+    font-size: 14px;
+    text-transform: none;
+    margin: 2px;
+}
+.btn-pill-large-selected{
+	border-bottom: 1px solid;
+}
 .custom-card-title{
 	   line-height: 10px  !important;;
+}
+
+.filterContainer{
+position: fixed;
+    z-index: 9999999;    
+    margin-top: 5px;
 }
 
 
