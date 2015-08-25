@@ -1,21 +1,17 @@
  <!DOCTYPE html>
   <html ng-app="myapp">
     <head>
-      <!--Import materialize.css-->
-	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
- <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  
-	  
-	  <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-	    <script type="text/javascript" src="js/angular.min.js"></script>
-	
+    <!--Import materialize.css-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/angular.min.js"></script>	
     </head>
-
     <body ng-controller="MainController">
 		<header>
 			<nav class="top-nav" style="position:fixed;z-index:9999; ">
@@ -24,40 +20,41 @@
 					 <a href="#" class="brand-logo">JAVA SCRIPTS</a>
 					  <ul id="nav-mobile" class="right hide-on-med-and-down">					
 						<li><a href="https://github.com/java-scripts">View On GitHub</a></li>
-					  </ul>
-					
-					
+					  </ul>				
 					</div>
-				</div>
-				
+				</div>				
 				<ul id="slide-out" class="side-nav">
 					<li><a href="#!"></a></li>
 					<li><a href="#!"></a></li>
 				</ul>
 				<a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="mdi-navigation-menu"></i></a>   
 			  </nav>
-			  <nav></nav	>
+			  <nav></nav>
 		</header>
-		<main>
-			<div class="container">		
-				<div class="row">
-					<div class="col s12 m12 l12">
-						
-						<div id="gallery1" class="section">
-							<h3 class="header">Gallery 1</h3>
+		<!-- ------------------------------------------------------------------------------------------------------------------- -->
+		<main>			
+			
+			<div class="container">					
+				<div class="row filterContainer" >
+					<div class="col s12 m12 l12">	
+						<a ng-repeat="(key,value) in dm.labels" class="waves-effect waves-light btn btn-pill-large {{value.color}}" href="#" ng-click="updateFilterData(key)" ng-class="{'btn-pill-large-selected':filterData[key]}">{{value.title}} </a>	
+					</div>
+				</div>
+				<div class="row" id="scrollcontainer">
+					<div class="col s12 m12 l12">						
+						<div ng-repeat="cardmodal in dm.cards" id="gallery1" class="section">
+							<h3 class="header">{{cardmodal.title}}</h3>
 							<div class="row">
 							  <!-- Pullup Card -->
-							  <div ng-repeat="card in data.gallery1" class="col s12 m6 l4">
+							  <div ng-repeat="card in cardmodal.data.slice(start,end)|cardfilter:filterData" class="{{cardmodal.rsize}}">
 								<h5 class="header">{{card.title}}</h5>
 								<div class="card hoverable">
 								  <div class="card-image waves-effect waves-block waves-light">
 									<img class="activator card-img-big" ng-src="{{card.image}}">
 								  </div>
 								  <div class="card-content">
-									<a ng-repeat="label in card.labels" class="waves-effect waves-light btn btn-pill" href="#">{{label}} </a> 									
-								  
-									<span class="card-title activator grey-text text-darken-4 custom-card-title"><i class="material-icons right">more_vert</i></span>
-
+									<a ng-repeat="label in card.labels" class="waves-effect waves-light btn btn-pill {{dm.labels[label].color}}" href="#">{{dm.labels[label].title}} </a>					
+								  	<span class="card-title activator grey-text text-darken-4 custom-card-title"><i class="material-icons right">more_vert</i></span>
 									<p><a href="{{card.url}}" target="_blank">Goto Page</a></p>
 								  </div>
 								  <div class="card-reveal" style="display: none; transform: translateY(0px);">
@@ -66,41 +63,15 @@
 								  </div>
 								</div>
 							  </div>
-							</div>							
-						  </div>
-						  <div id="gallery2" class="section">
-							<h3 class="header">Gallery 2</h3>	
-							<div class="row">
-							  <!-- Pullup Card -->
-							  <div ng-repeat="card in lazygallery" class="col s12 m6 l3">
-								<h5 class="header">{{card.title}}</h5>
-								<div class="card hoverable">
-								  <div class="card-image waves-effect waves-block waves-light">
-									<img class="activator card-img" ng-src="{{card.image}}">
-								  </div>
-								  <div class="card-content">
-									<a ng-repeat="label in card.labels" class="waves-effect waves-light btn btn-pill" href="#">{{label}} </a> 									
-								  
-									<span class="card-title activator grey-text text-darken-4 custom-card-title"><i class="material-icons right">more_vert</i></span>
-
-									<p><a href="{{card.url}}"  target="_blank">Goto Page</a></p>
-								  </div>
-								  <div class="card-reveal" style="display: none; transform: translateY(0px);">
-									<span class="card-title grey-text text-darken-4">{{card.title}}<i class="material-icons right">close</i></span>
-									<p>{{card.description}}</p>
-								  </div>
-								</div>
-							  </div>
 							</div>		
-						  </div>								
+						</div>							
 					</div>
 				</div>					
 			</div>		
-		</main>
-		
+		</main>		
+		<!-- ------------------------------------------------------------------------------------------------------------------- -->
 		 <footer class="page-footer">
-          <div class="container">
-		  
+          <div class="container">		  
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">To be continued...</h5>
@@ -117,8 +88,6 @@
             </div>
           </div>
         </footer>
-		<script type="text/javascript" src="js/controller.js"></script>
-		
+		<script type="text/javascript" src="js/controller.js"></script>		
     </body>
   </html>
-        
