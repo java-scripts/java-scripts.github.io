@@ -86,7 +86,7 @@
 			"title": "Image Puzzle",
 			"description": "Puzzle",
 			"url": "/miscellaneous/imagepuzzle.html",
-			"image": "images/default.jpg",
+			"image": "images/imagepuzzle.png",
 			"labels": ["jquery"],
 			"p": [5, 5]
 		  },{
@@ -107,7 +107,7 @@
 			"title": "Motion Detecton",
 			"description": "Motion Detection Alarm",
 			"url": "/audio-video/motion_detection_alarm.html",
-			"image": "images/default.jpg",
+			"image": "images/motiondetection.png",
 			"labels": ["jquery", "jqueryUI"],
 			"p": [5, 5]
 		  },{
@@ -156,14 +156,14 @@
 			"title": "Audio Player",
 			"description": "Audio Player",
 			"url": "/miscellaneous/audio_player_with_playlist.html",
-			"image": "images/default.jpg",
+			"image": "images/musicplayer.png",
 			"labels": ["jquery"],
 			"p": [5, 5]
 		  },{
 			"title": "Audio Player",
 			"description": "Audio Player",
 			"url": "/miscellaneous/audio_player_with_playlist_ng.html",
-			"image": "images/default.jpg",
+			"image": "images/musicplayer.png",
 			"labels": ["angular"],
 			"p": [5, 5]
 		  }]
