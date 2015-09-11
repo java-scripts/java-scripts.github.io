@@ -55,11 +55,17 @@
 								  <div class="card-content">
 									<a ng-repeat="label in card.labels" class="waves-effect waves-light btn btn-pill {{dm.labels[label].color}}" href="#">{{dm.labels[label].title}} </a>					
 								  	<span class="card-title activator grey-text text-darken-4 custom-card-title"><i class="material-icons right">more_vert</i></span>
-									<p><a href="{{card.url}}" target="_blank">Goto Page</a></p>
+									<p><a href="{{card.url}}" target="_blank">See the Demo</a></p>
 								  </div>
 								  <div class="card-reveal" style="display: none; transform: translateY(0px);">
-									<span class="card-title grey-text text-darken-4">{{card.title}}<i class="material-icons right">close</i></span>
-									<p>{{card.description}}</p>
+									<span class="card-title grey-text text-darken-4">							
+										{{card.title}}<i class="material-icons right">close</i>										
+									</span>
+									<div class="body card-body">									
+										<p>{{card.description}}</p>
+									</div>
+									<hr>
+									<a class="waves-effect waves-light btn btn-full pink darken-4" href="{{card.url}}" target="_blank">See the Demo</a>						
 								  </div>
 								</div>
 							  </div>
