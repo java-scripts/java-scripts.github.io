@@ -166,6 +166,12 @@
 			"image": "images/musicplayer.png",
 			"labels": ["angular"],
 			"p": [5, 5]
+		  },{
+			"title": "Virtual Reality",
+			"description": "First Virtual Reality in HTML. Open this in your mobile phone chrome browser and use VR Head Set.",
+			"url": "/html3d/vrdemo.html",
+			"image": "images/vrdemo.png",
+			"labels": ["angular","css3"]		
 		  }]
 	}
   ] 
