@@ -7,7 +7,8 @@
 	"highcharts":{"title":"HighCharts","color":"pink accent-1"},
 	"d3":{"title":"D3 JS","color":"amber accent-4"},
 	"css3":{"title":"css3","color":"indigo darken-1"},
-	"canvas":{"title":"canvas","color":"cyan lighten-1"}
+	"canvas":{"title":"canvas","color":"cyan lighten-1"},
+	"raphaeljs":{"title":"Raphael JS","color":"pink darken-1"}
   },
   "cards":[
 	{
@@ -40,6 +41,13 @@
 			"url": "/image-processing",
 			"image": "images/imageprocess.png",
 			"labels": ["vanilla"],
+			"p": [10, 3]
+		  },{
+			"title": "Digital Logic",
+			"description": "Digital Circuit Maker",
+			"url": "/circuit-maker/",
+			"image": "images/circuitmaker.png",
+			"labels": ["jquery", "jqueryUI","raphaeljs"],
 			"p": [10, 3]
 		  }]
 	},

@@ -2,7 +2,7 @@
 angular.module('myapp',[])
 .controller('MainController',['$scope','$http',function(s,http){
 	s.dm={};http.get('js/data.json').success(function(res){s.dm = res;});	
-	s.start=0;s.end=4;		
+	s.start=0;s.end=5;		
 	s.filterData={};var filterData={};	
 	s.updateFilterData = function(fname){
 		filterData[fname]?delete filterData[fname]:filterData[fname]=true;				
