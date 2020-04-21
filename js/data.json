@@ -54,127 +54,24 @@
 	{
 		"title":"Gallery2",
 		"rsize":"col s12 m6 l3",
-		"data":[{
-			"title": "Optics Lens",
-			"description": "Optics",
-			"url": "/miscellaneous/rayoptics_lens.html",
-			"image": "images/rayoptics_lens.png",
-			"labels": ["vanilla"],
-			"p": [5, 5]
-		  }, {
-			"title": "Optics Mirror",
-			"description": "Optics",
-			"url": "/miscellaneous/rayoptics_mirror.html",
-			"image": "images/rayoptics_mirror.png",
-			"labels": ["vanilla"],
-			"p": [5, 5]
-		  },
+		"data":[
 		  {
-			"title": "Six Cards",
-			"description": "six cards",
-			"url": "/miscellaneous/sixcards.html",
-			"image": "images/sixcards.png",
-			"labels": ["jquery", "jqueryUI"],
-			"p": [4, 1]
-		  }, {
-			"title": "F-Plot",
-			"description": "A 2D Function Plotter",
-			"url": "/miscellaneous/fplot.html",
-			"image": "images/fplot.png",
-			"labels": ["vanilla"],
-			"p": [5, 5]
-		  }, {
-			"title": "Clock",
-			"description": "Simple Clock",
-			"url": "/miscellaneous/clock.html",
-			"image": "images/clock.png",
-			"labels": ["vanilla"],
-			"p": [5, 5]
-		  }, {
-			"title": "Image Puzzle",
-			"description": "Puzzle",
-			"url": "/miscellaneous/imagepuzzle.html",
-			"image": "images/imagepuzzle.png",
-			"labels": ["jquery"],
-			"p": [5, 5]
-		  },{
-			"title": "ng-2d-sinc",
-			"description": "2 dim sinc",
-			"url": "/miscellaneous/sinc2d.html",
-			"image": "images/sinc2d.png",
-			"labels": ["angular"],
-			"p": [5, 5]
-		  },{
-			"title": "jQuery Animation",
-			"description": "Puzzle",
-			"url": "/miscellaneous/jquery_animation_example1.html",
-			"image": "images/jquery_animation_example1.png",
-			"labels": ["jquery"],
-			"p": [5, 5]
-		  },{
-			"title": "Motion Detecton",
-			"description": "Motion Detection Alarm",
-			"url": "/audio-video/motion_detection_alarm.html",
-			"image": "images/motiondetection.png",
-			"labels": ["jquery", "jqueryUI"],
-			"p": [5, 5]
-		  },{
-			"title": "Image Captcha",
-			"description": "captcha",
-			"url": "/miscellaneous/imagecaptcha.html",
-			"image": "images/imagecaptcha.png",
-			"labels": ["jquery", "jqueryUI"],
-			"p": [5, 5]
-		  },{
-			"title": "Color Composer",
-			"description": "Color Composer",
-			"url": "/miscellaneous/colorcomposer.html",
-			"image": "images/colorcomposer.png",
-			"labels": ["angular"],
-			"p": [5, 5]
-		  },{
-			"title": "Loan Calculator",
-			"description": "Loan Calculator",
-			"url": "/miscellaneous/loancalculator.html",
-			"image": "images/loancalculator.png",
-			"labels": ["angular","highcharts"],
-			"p": [5, 5]
-		  },{
 			"title": "Head Track Game",
 			"description": "Head Track Game",
 			"url": "/miscellaneous/headtrackergame.html",
 			"image": "images/headtrackergame.png",
 			"labels": ["vanilla"],
 			"p": [5, 5]
-		  },{
-			"title": "See Through",
-			"description": "See Through",
-			"url": "/miscellaneous/seethrough.html",
-			"image": "images/seethrough.png",
-			"labels": ["jquery","jqueryUI"],
+		  },
+		  {
+			"title": "Motion Detecton",
+			"description": "Motion Detection Alarm",
+			"url": "/audio-video/motion_detection_alarm.html",
+			"image": "images/motiondetection.png",
+			"labels": ["jquery", "jqueryUI"],
 			"p": [5, 5]
-		  },{
-			"title": "Image Matrix",
-			"description": "Image Matrix",
-			"url": "/miscellaneous/imagematrix.html",
-			"image": "images/imagematrix.png",
-			"labels": ["jquery"],
-			"p": [5, 5]
-		  },{
-			"title": "Audio Player",
-			"description": "Audio Player",
-			"url": "/miscellaneous/audio_player_with_playlist.html",
-			"image": "images/musicplayer.png",
-			"labels": ["jquery"],
-			"p": [5, 5]
-		  },{
-			"title": "Audio Player",
-			"description": "Audio Player",
-			"url": "/miscellaneous/audio_player_with_playlist_ng.html",
-			"image": "images/musicplayer.png",
-			"labels": ["angular"],
-			"p": [5, 5]
-		  },{
+		  },
+		  {
 			"title": "Virtual Reality",
 			"description": "First Virtual Reality in HTML. Open this in your mobile phone chrome browser and use VR Head Set.",
 			"url": "/html3d/vrdemo.html",
